@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+main{
+    height: 80vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+.text-info{
+    width: 50%;
+    height:45%;
+    margin-top: 20px;
+}
+.heading-text{
+    font-family: League Spartan;
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+    margin-right: 250px;
+}
+.heading-description{
+    font-family: League Spartan;
+    font-size: 15px;
+    color: hsla(300, 43%, 22%, 0.745);
+    margin-top: 20px;
+    margin-right: 150px;
+    line-height:16px;
+    word-spacing: 2px;
+}
+aside{
+    width: 50%;
+    height:45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: -180px;
+ 
+}
+.rating-one, .rating-two, .rating-three{
+    height: 35px;
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    
+}
+.rating-two{
+  margin-left: 50px;
+}
+.rating-three{
+    margin-left: 90px;
+}
+.star{
+    height: 12px;
+    width: 12px;
+    align-content: center;
+}
+.rating-one p, .rating-two p, .rating-three p{
+    color: hsl(300, 43%, 22%);
+    margin-left: 10px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 700;
+}
+footer{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    gap:2%;
+    margin-left: -100px;
+}
+card-one, card-two, card-three{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 24%;
+    height: 150px;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+card-two{
+    margin-top: 40px;
+}
+card-three{
+    margin-top:70px;
+}
+.image-colton, .image-irene, .image-anne{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+name{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.colton, .irene, .anne{
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    color:hsl(300, 24%, 96%) ;
+    
+}
+.verified-buyer{
+    font-family: League Spartan;
+    font-size: 14px;
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+.review{
+    font-family: League Spartan;
+    font-size: 13px;
+    line-height: 15px;
+    color: hsl(300, 24%, 96%);
+    
+}
